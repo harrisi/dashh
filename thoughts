@@ -33,3 +33,12 @@ Write tests for a parser.
   - author(s)
 - examples?
   - format?
+- output width
+  - wrap?
+  - max line length?
+
+# reference implementation(s)
+
+How should it be used? It's really just a linter. Creating linting software for multiple build systems seems nice.
+
+Ability to output some AST? The whole reason for thinking about this is to consume `-h`/`--help` output to generate a manpage. Consider [pandoc](https://pandoc.org)??
